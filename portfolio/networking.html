@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Networking Skills Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+    
+    /* Header Styles */
+    .header {
+      background-color: black;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ff004f;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #ff004f;
+    }
+    .header p {
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #666;
+    }
+    
+    /* Links Styles */
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px;
+    }
+    .link {
+      margin: 20px;
+      text-decoration: none;
+      color: #ff004f;
+      transition: color 0.2s ease;
+    }
+    .link:hover {
+      color: black;
+    }
+    .link::before {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .link:hover::before {
+      background-color: #23527c;
+    }
+    
+    /* Add some colorful styles */
+    .link {
+      background-color: #fff;
+      padding: 10px 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .link:hover {
+      background-color: #ff004f;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>My Networking Skills Portfolio<br>Explore my skills and experience in networking</h1><br>
+    <p></p>
+  </div>
+  <div class="links">
+    <a href="certificate/certificate1.pdf" class="link">Certificate 1  <i class="fas fa-file-pdf"></i></a>
+    <a href="certificate/letter1.pdf" class="link">Letter 1<i class="fas fa-certificate"></i></a>
+    <a href="certificate/certificate2.pdf" class="link">Certificate 2 <i class="fas fa-briefcase"></i></a>
+    <a href="certificate/letter2.pdf" class="link">Letter 2 <i class="fas fa-file-pdf"></i></a>
+    <a href="certificate/certificate3.pdf" class="link">Certificate 3 <i class="fas fa-certificate"></i></a>
+    <a href="certificate/letter3.pdf" class="link">letter 3 <i class="fas fa-briefcase"></i></a>
+  </div>
+  
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/your_font_awesome_kit_id.js"></script>
+</body>
+</html>
